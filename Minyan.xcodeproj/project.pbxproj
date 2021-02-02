@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D9472A25B61D3F0027337C /* MinyanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9472925B61D3F0027337C /* MinyanApp.swift */; };
+		69D9472C25B61D3F0027337C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9472B25B61D3F0027337C /* ContentView.swift */; };
+		69D9472E25B61D3F0027337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D9472D25B61D3F0027337C /* Assets.xcassets */; };
+		69D9473125B61D3F0027337C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D9473025B61D3F0027337C /* Preview Assets.xcassets */; };
+		69D9473C25B61D400027337C /* MinyanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9473B25B61D400027337C /* MinyanTests.swift */; };
+		69D9474725B61D400027337C /* MinyanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9474625B61D400027337C /* MinyanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D9473825B61D400027337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D9471E25B61D3F0027337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D9472525B61D3F0027337C;
+			remoteInfo = Minyan;
+		};
+		69D9474325B61D400027337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D9471E25B61D3F0027337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D9472525B61D3F0027337C;
+			remoteInfo = Minyan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69D9472625B61D3F0027337C /* Minyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D9472925B61D3F0027337C /* MinyanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinyanApp.swift; sourceTree = "<group>"; };
+		69D9472B25B61D3F0027337C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69D9472D25B61D3F0027337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D9473025B61D3F0027337C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69D9473225B61D3F0027337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D9473725B61D400027337C /* MinyanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinyanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D9473B25B61D400027337C /* MinyanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinyanTests.swift; sourceTree = "<group>"; };
+		69D9473D25B61D400027337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D9474225B61D400027337C /* MinyanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinyanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D9474625B61D400027337C /* MinyanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinyanUITests.swift; sourceTree = "<group>"; };
+		69D9474825B61D400027337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D9472325B61D3F0027337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9473425B61D400027337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9473F25B61D400027337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D9471D25B61D3F0027337C = {
+			isa = PBXGroup;
+			children = (
+				69D9472825B61D3F0027337C /* Minyan */,
+				69D9473A25B61D400027337C /* MinyanTests */,
+				69D9474525B61D400027337C /* MinyanUITests */,
+				69D9472725B61D3F0027337C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D9472725B61D3F0027337C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D9472625B61D3F0027337C /* Minyan.app */,
+				69D9473725B61D400027337C /* MinyanTests.xctest */,
+				69D9474225B61D400027337C /* MinyanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D9472825B61D3F0027337C /* Minyan */ = {
+			isa = PBXGroup;
+			children = (
+				69D9472925B61D3F0027337C /* MinyanApp.swift */,
+				69D9472B25B61D3F0027337C /* ContentView.swift */,
+				69D9472D25B61D3F0027337C /* Assets.xcassets */,
+				69D9473225B61D3F0027337C /* Info.plist */,
+				69D9472F25B61D3F0027337C /* Preview Content */,
+			);
+			path = Minyan;
+			sourceTree = "<group>";
+		};
+		69D9472F25B61D3F0027337C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69D9473025B61D3F0027337C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69D9473A25B61D400027337C /* MinyanTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D9473B25B61D400027337C /* MinyanTests.swift */,
+				69D9473D25B61D400027337C /* Info.plist */,
+			);
+			path = MinyanTests;
+			sourceTree = "<group>";
+		};
+		69D9474525B61D400027337C /* MinyanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69D9474625B61D400027337C /* MinyanUITests.swift */,
+				69D9474825B61D400027337C /* Info.plist */,
+			);
+			path = MinyanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D9472525B61D3F0027337C /* Minyan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D9474B25B61D400027337C /* Build configuration list for PBXNativeTarget "Minyan" */;
+			buildPhases = (
+				69D9472225B61D3F0027337C /* Sources */,
+				69D9472325B61D3F0027337C /* Frameworks */,
+				69D9472425B61D3F0027337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minyan;
+			productName = Minyan;
+			productReference = 69D9472625B61D3F0027337C /* Minyan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D9473625B61D400027337C /* MinyanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D9474E25B61D400027337C /* Build configuration list for PBXNativeTarget "MinyanTests" */;
+			buildPhases = (
+				69D9473325B61D400027337C /* Sources */,
+				69D9473425B61D400027337C /* Frameworks */,
+				69D9473525B61D400027337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D9473925B61D400027337C /* PBXTargetDependency */,
+			);
+			name = MinyanTests;
+			productName = MinyanTests;
+			productReference = 69D9473725B61D400027337C /* MinyanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69D9474125B61D400027337C /* MinyanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D9475125B61D400027337C /* Build configuration list for PBXNativeTarget "MinyanUITests" */;
+			buildPhases = (
+				69D9473E25B61D400027337C /* Sources */,
+				69D9473F25B61D400027337C /* Frameworks */,
+				69D9474025B61D400027337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D9474425B61D400027337C /* PBXTargetDependency */,
+			);
+			name = MinyanUITests;
+			productName = MinyanUITests;
+			productReference = 69D9474225B61D400027337C /* MinyanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D9471E25B61D3F0027337C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					69D9472525B61D3F0027337C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					69D9473625B61D400027337C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 69D9472525B61D3F0027337C;
+					};
+					69D9474125B61D400027337C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 69D9472525B61D3F0027337C;
+					};
+				};
+			};
+			buildConfigurationList = 69D9472125B61D3F0027337C /* Build configuration list for PBXProject "Minyan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D9471D25B61D3F0027337C;
+			productRefGroup = 69D9472725B61D3F0027337C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D9472525B61D3F0027337C /* Minyan */,
+				69D9473625B61D400027337C /* MinyanTests */,
+				69D9474125B61D400027337C /* MinyanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D9472425B61D3F0027337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9473125B61D3F0027337C /* Preview Assets.xcassets in Resources */,
+				69D9472E25B61D3F0027337C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9473525B61D400027337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9474025B61D400027337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D9472225B61D3F0027337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9472C25B61D3F0027337C /* ContentView.swift in Sources */,
+				69D9472A25B61D3F0027337C /* MinyanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9473325B61D400027337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9473C25B61D400027337C /* MinyanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9473E25B61D400027337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9474725B61D400027337C /* MinyanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D9473925B61D400027337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D9472525B61D3F0027337C /* Minyan */;
+			targetProxy = 69D9473825B61D400027337C /* PBXContainerItemProxy */;
+		};
+		69D9474425B61D400027337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D9472525B61D3F0027337C /* Minyan */;
+			targetProxy = 69D9474325B61D400027337C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69D9474925B61D400027337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69D9474A25B61D400027337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D9474C25B61D400027337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Minyan/Preview Content\"";
+				DEVELOPMENT_TEAM = 2444662Q86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Minyan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jediyozh.Minyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69D9474D25B61D400027337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Minyan/Preview Content\"";
+				DEVELOPMENT_TEAM = 2444662Q86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Minyan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jediyozh.Minyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69D9474F25B61D400027337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinyanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jediyozh.MinyanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minyan.app/Minyan";
+			};
+			name = Debug;
+		};
+		69D9475025B61D400027337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinyanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jediyozh.MinyanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minyan.app/Minyan";
+			};
+			name = Release;
+		};
+		69D9475225B61D400027337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinyanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jediyozh.MinyanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Minyan;
+			};
+			name = Debug;
+		};
+		69D9475325B61D400027337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinyanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jediyozh.MinyanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Minyan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D9472125B61D3F0027337C /* Build configuration list for PBXProject "Minyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D9474925B61D400027337C /* Debug */,
+				69D9474A25B61D400027337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D9474B25B61D400027337C /* Build configuration list for PBXNativeTarget "Minyan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D9474C25B61D400027337C /* Debug */,
+				69D9474D25B61D400027337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D9474E25B61D400027337C /* Build configuration list for PBXNativeTarget "MinyanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D9474F25B61D400027337C /* Debug */,
+				69D9475025B61D400027337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D9475125B61D400027337C /* Build configuration list for PBXNativeTarget "MinyanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D9475225B61D400027337C /* Debug */,
+				69D9475325B61D400027337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D9471E25B61D3F0027337C /* Project object */;
+}
