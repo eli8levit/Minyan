@@ -9,16 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-            VStack {
-                Image("Logo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                
-                Text("Minyan").font(.largeTitle).bold().foregroundColor(.black)
-            }
-        .edgesIgnoringSafeArea(.all).statusBar(hidden: true)
-                
+        NavigationView {
+            ZStack {
+                Color("Background")
+                VStack(alignment: .center) {
+                    Image("Logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 120, height: 120, alignment: .center)
+                    Text("Minyan").font(.largeTitle).bold().foregroundColor(Color("Text")).padding(.top, -4.0)
+                    NavigationLink(
+                        destination: HomeView(),
+                        label: {
+                            Text("Navigate to home").navigationBarTitle("")
+                                .navigationBarHidden(true)
+                        })
+                }
+            }.ignoresSafeArea(.all)
+        }
     }
 }
 

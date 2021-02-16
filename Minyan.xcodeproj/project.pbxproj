@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692AFF5825DC542000F82362 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AFF5725DC542000F82362 /* Link.swift */; };
+		69676C0225D9AC5300684830 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69676C0125D9AC5300684830 /* HomeView.swift */; };
 		69D9472A25B61D3F0027337C /* MinyanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9472925B61D3F0027337C /* MinyanApp.swift */; };
 		69D9472C25B61D3F0027337C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9472B25B61D3F0027337C /* ContentView.swift */; };
 		69D9472E25B61D3F0027337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D9472D25B61D3F0027337C /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		692AFF5725DC542000F82362 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		69676C0125D9AC5300684830 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		69D9472625B61D3F0027337C /* Minyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D9472925B61D3F0027337C /* MinyanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinyanApp.swift; sourceTree = "<group>"; };
 		69D9472B25B61D3F0027337C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,9 +101,11 @@
 			children = (
 				69D9472925B61D3F0027337C /* MinyanApp.swift */,
 				69D9472B25B61D3F0027337C /* ContentView.swift */,
+				692AFF5725DC542000F82362 /* Link.swift */,
 				69D9472D25B61D3F0027337C /* Assets.xcassets */,
 				69D9473225B61D3F0027337C /* Info.plist */,
 				69D9472F25B61D3F0027337C /* Preview Content */,
+				69676C0125D9AC5300684830 /* HomeView.swift */,
 			);
 			path = Minyan;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69676C0225D9AC5300684830 /* HomeView.swift in Sources */,
 				69D9472C25B61D3F0027337C /* ContentView.swift in Sources */,
 				69D9472A25B61D3F0027337C /* MinyanApp.swift in Sources */,
+				692AFF5825DC542000F82362 /* Link.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
