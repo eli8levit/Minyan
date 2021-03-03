@@ -9,7 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Hi from minyan")
+        ZStack(alignment: .topLeading) {
+            Color("Background").ignoresSafeArea()
+            VStack(alignment: .leading) {
+                HStack(alignment: .top) {
+                    Text("Current week").font(.title).bold()
+                    Spacer()
+                    Image(systemName: "person.crop.circle.fill").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                }.padding()
+            }
+            
+        }
     }
 }
 
